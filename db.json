@@ -1,0 +1,110 @@
+{
+  "users": [
+    {
+      "name": "Juliet Oma",
+      "email": "julie@yahoo.com",
+      "mobile": 8167846392,
+      "address": "apo mechanic 3rd gate",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Oluwaseyi Alugbin john",
+      "email": "oluwaseyialugbin@yahoo.com",
+      "mobile": 9078073945,
+      "address": "state house, ribadu st, ikoyi"
+    },
+    {
+      "id": 3,
+      "name": "Omolola charles",
+      "email": "juliechales@yahoo.com",
+      "mobile": 81677738738,
+      "address": "common estate"
+    },
+    {
+      "name": "Oluwaseyi Alugbin",
+      "email": "oluwaseyialugbin@gmail.com",
+      "mobile": 9078073945,
+      "address": "Idi-Aba",
+      "id": 4
+    },
+    {
+      "name": "Oluwaseyi Alugbin",
+      "email": "oluwaseyialugbin@gmail.com",
+      "mobile": 9078073945,
+      "address": "Idi-Aba",
+      "id": 5
+    },
+    {
+      "name": "Oluwaseyi hjxfghjk",
+      "email": "oluwaseyialugbin@gmail.com",
+      "mobile": 9078073945,
+      "address": "Idi-Aba",
+      "id": 6
+    },
+    {
+      "name": "Oluwaseyi Alugbin",
+      "email": "harllogeen2020@gmail.com",
+      "mobile": 345678,
+      "address": "23104 143rd Ave.E",
+      "id": 7
+    }
+  ],
+  "comments": [],
+  "signup": [
+    {
+      "id": 1,
+      "name": "Oluwaseyi hdfgdh",
+      "email": "seyi1234@gmail.com",
+      "mobile": 9078073945,
+      "date": "",
+      "phone": "",
+      "password": "12345"
+    },
+    {
+      "name": "seyi oloolok",
+      "email": "harllogeen2020@gmail.com",
+      "mobile": 34567898976,
+      "date": "",
+      "phone": "",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "name": "Oluwaseyi Alugbin",
+      "email": "alugbinseyi@yahoo.com",
+      "mobile": 9078073945,
+      "date": "",
+      "phone": "",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "name": "Oluwaseyi Alugbin",
+      "email": "bshshsshjks@hghfj.com",
+      "mobile": 9078073945,
+      "date": "",
+      "phone": "",
+      "password": "12345678",
+      "id": 4
+    },
+    {
+      "name": "who help",
+      "email": "john@gmail.com",
+      "mobile": null,
+      "date": "",
+      "phone": "",
+      "password": "12345",
+      "id": 5
+    },
+    {
+      "name": "omolola Alugbin",
+      "email": "omololalydia@gmail.com",
+      "mobile": 9078073945,
+      "date": "",
+      "phone": "",
+      "password": "Seyi1234@",
+      "id": 6
+    }
+  ]
+}

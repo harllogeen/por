@@ -1,0 +1,29 @@
+<div class="flex justify-between p-4 items-center hover:shadow bg-gray-50">
+  <div class="flex space-x-4 items-center">
+    <div>#id</div>
+    <div  *ngIf="editTodo; else inputBlock">title</div>
+    <ng-template #inputBlock>
+        <input class="input ml-2 p-2" type="text" placeholder="edit" />
+    </ng-template>
+    
+  </div>
+  <div class="flex space-x-4 cursor-pointer">
+    <div>
+      <button
+        type="button"
+        class="btn green"
+        *ngIf="editTodo; else elseBlock"
+        (click)="updateToggle()"
+      >
+        Edit
+      </button>
+      <ng-template #elseBlock>
+        <button type="button" class="btn green" (click)="updateToggle()">
+          Update
+        </button></ng-template
+      >
+    </div>
+
+    <div class="red btn">Delete</div>
+  </div>
+</div>

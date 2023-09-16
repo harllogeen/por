@@ -1,0 +1,35 @@
+<h1 mat-dialog-title>Add Product Form</h1>
+<div mat-dialog-content>
+  <form [formGroup]="myForm">
+    <mat-form-field appearance="outline">
+      <mat-label>Name</mat-label>
+      <input formControlName="name" matInput placeholder="Enter Name" />
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Email</mat-label>
+      <input formControlName="email" matInput placeholder="Enter Email" />
+    </mat-form-field>
+
+    <mat-form-field >
+      <mat-label>Mobile</mat-label>
+      <input
+        formControlName="mobile"
+        matInput
+        type="number"
+        placeholder="Enter Name"
+      />
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Address</mat-label>
+      <input formControlName="address" matInput placeholder="Enter Address" />
+    </mat-form-field>
+  </form>
+</div>
+<div mat-dialog-action [align]="'end'">
+  <button class="btn" mat-raised-button color="warn" mat-dialog-close="">
+    Close
+  </button>
+  <button  class="btn" mat-raised-button color="primary" (click)="addProfile()"  >
+    {{ actionBtn }}
+  </button>
+</div>

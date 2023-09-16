@@ -1,0 +1,27 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.primary {
+    background-color: #2155CD;
+    padding: 1rem .5rem;
+}
+
+.warn {
+    background-color: #EB5353;
+    color: white;
+}
+
+table {
+    width: 100%;
+}
+
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+
+#container {
+    max-width: 1200px;
+    margin: 3rem;
+}
